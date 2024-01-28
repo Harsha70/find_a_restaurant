@@ -29,3 +29,4 @@ export const SettingsNavigator = ({ route, navigation }) => {
     </SettingsStack.Navigator>
   );
 };
+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;
