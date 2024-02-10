@@ -16,7 +16,7 @@ export const AuthenticationContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
   const auth = useRef(getAuth()).current;
-  console.log("Authentication", auth);
+  // console.log("Authentication", auth);
 
   onAuthStateChanged(auth, (usr) => {
     if (usr) {
