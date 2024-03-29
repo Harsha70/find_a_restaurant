@@ -23,18 +23,19 @@ export const RestaurantsContextProvider = ({ children }) => {
   const retrieveRestaurants = (loc) => {
     setIsLoading(true);
     setRestaurants([]);
-    setTimeout(() => {
-      restaurantsRequest(loc)
-        .then(restaurantsTransform)
-        .then((restaurantsresults) => {
-          setRestaurants(restaurantsresults);
-          setIsLoading(false);
-        })
-        .catch((error) => {
-          setError(error);
-          setIsLoading(false);
-        });
-    }, 2000);
+
+    restaurantsRequest(loc)
+      // .then((response) => console.log(response))
+      .then(restaurantsTransform)
+      .then((restaurantsresults) => {
+        setRestaurants(restaurantsresults);
+        setIsLoading(false);
+        console.log("restaurants", loc);
+      })
+      .catch((error) => {
+        setError(error);
+        setIsLoading(false);
+      });
   };
 
   useEffect(() => {
