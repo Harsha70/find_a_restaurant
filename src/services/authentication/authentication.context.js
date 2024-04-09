@@ -1,3 +1,4 @@
+//File:authentication.context
 import React, { useState, createContext, useRef } from "react";
 import { ActivityIndicator, Colors } from "react-native-paper";
 import {
