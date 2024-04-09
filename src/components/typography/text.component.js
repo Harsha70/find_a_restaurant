@@ -1,3 +1,4 @@
+//File:text.component
 import styled from "styled-components/native";
 
 const defaultTextStyles = (theme) => `
