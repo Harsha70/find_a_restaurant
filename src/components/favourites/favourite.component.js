@@ -1,3 +1,4 @@
+//File:favourite.component.js
 import React, { useContext } from "react";
 import styled from "styled-components/native";
 import { AntDesign } from "@expo/vector-icons";
