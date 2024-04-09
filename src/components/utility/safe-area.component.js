@@ -1,3 +1,4 @@
+//File:safe-area.component
 import { StatusBar, SafeAreaView, FlatList } from "react-native";
 import styled from "styled-components/native";
 
