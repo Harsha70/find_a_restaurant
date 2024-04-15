@@ -78,5 +78,5 @@ export const RestaurantsScreen = ({ navigation }) => {
         contentContainerStyle={{ padding: 16 }}
       />
     </SafeArea>
-  );
+  ); // Edited new component
 };
