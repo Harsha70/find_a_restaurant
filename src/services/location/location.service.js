@@ -1,3 +1,4 @@
+// Code for services available according to the location
 import camelize from "camelize";
 
 // import { locations } from "./location.mock";
