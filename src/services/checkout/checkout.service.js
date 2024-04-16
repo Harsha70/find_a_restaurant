@@ -1,3 +1,4 @@
+// The code below is used to checkout the items added by the user in the cart importing stripe from client
 import createStripe from "stripe-client";
 
 const live = "iubg";
