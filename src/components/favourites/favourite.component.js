@@ -33,3 +33,4 @@ export const Favourite = ({ restaurant }) => {
     </FavouriteButton>
   );
 };
+// favourite component to make a favourite list of restaurents
